@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuspendProcess", "SuspendProcess\SuspendProcess.csproj", "{B837A865-6013-47B5-B55E-C30EEAED123D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B837A865-6013-47B5-B55E-C30EEAED123D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B837A865-6013-47B5-B55E-C30EEAED123D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B837A865-6013-47B5-B55E-C30EEAED123D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B837A865-6013-47B5-B55E-C30EEAED123D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1408AD4-48D9-4775-85D8-C160E49A4798}
+	EndGlobalSection
+EndGlobal
