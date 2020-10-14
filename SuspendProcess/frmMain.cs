@@ -5,7 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 
 using System.Diagnostics;
@@ -201,14 +201,14 @@ namespace SuspendProcess
             }
         }
 
-        async private void TmrLoopProcessSuspend_Tick(object sender, EventArgs e)
+        private void TmrLoopProcessSuspend_Tick(object sender, EventArgs e)
         {
             LoopProcessId = GetProcessIdByName(txtLoopProcessName.Text);
 
             if (LoopProcessId == -1)
                 return;
 
-            await Task.Delay(Int32.Parse(txtLoopDelay.Text));
+            Thread.Sleep(Int32.Parse(txtLoopDelay.Text));
 
             SuspendProcess(LoopProcessId);
             TmrLoopProcessSuspend.Enabled = false;
